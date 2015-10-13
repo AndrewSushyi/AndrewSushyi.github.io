@@ -1,0 +1,81 @@
+.eye_exams{
+    position: relative;
+    width: 380px;
+    height: 1100px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.check_table {
+    position: relative;
+    margin: 0;
+    left: -40px;
+    right: 0;
+    list-style-type: none;
+    font-size: 100px;
+    text-align: justify;
+    line-height: 100px;
+}
+li::after {
+    display: inline-block;
+    width: 100%;
+    content: "";
+}
+li{
+    position: relative;
+    color: darkgrey;
+   top: 10px;
+    font-family:  "Arial", serif;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 4px #555555;
+}
+.row_2{
+    top: -25px;
+    font-size: calc(1em - 1em/12);
+}
+.row_3{
+    top: -80px;
+    font-size: calc(1em - 3em/12);
+}
+.row_4{
+    top: -145px;
+    font-size: calc(1em - 3.5em/12);
+}
+.row_5{
+    top: -225px;
+    font-size: calc(1em - 4.5em/12);
+}
+.row_6{
+    top: -320px;
+    font-size: calc(1em - 6em/12);
+}
+.row_7{
+    top: -425px;
+    font-size: calc(1em - 7em/12);
+}
+.row_8{
+    top: -545px;
+    font-size: calc(1em - 8em/12);
+}
+.row_9{
+    top: -680px;
+    font-size: calc(1em - 9.5em/12);
+}
+.row_10{
+    top: -830px;
+    font-size: calc(1em - 10em/12);
+}
+.row_line{
+     height: 0;
+     margin: 0;
+     border: solid 1px #FFCCCB;
+    top: -955px;
+ }
+.row_11{
+    top: -980px;
+    font-size: calc(1em - 10.7em/12);
+}
+.row_12{
+    top: -1140px;
+    font-size: calc(1em - 11em/12);
+}

@@ -1,0 +1,33 @@
+.container{
+    background: #9966ff;
+}
+
+ul {
+    width: 900px;
+    margin: 0 auto;
+    padding: 8px;
+}
+ul li {
+    color:white;
+    font-size: 18px;
+    background: inherit;
+    display: inline;
+    margin: 5px;
+
+}
+li:first-child {
+    margin-left: 60px;
+}
+
+li a{
+    text-decoration: none;
+    font-family: Impact, serif  ;
+    color: white;
+    padding: 8px
+}
+
+li a:hover {
+    background: lightgrey;
+    color: grey;
+}
+

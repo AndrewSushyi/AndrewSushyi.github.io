@@ -1,0 +1,44 @@
+.search_field{
+    position: relative;
+    background-color: #ffcc66;
+    width: 65%;
+    min-width: 550px;
+    height: 45px;
+    left: 0;
+    right: 0;
+    padding: 3px;
+    margin: 50px auto;
+    display: block;
+}
+.search_field::after{
+    content: " ";
+    position: absolute;
+    right: -46px;
+    top: 0;
+    border: 26px solid transparent;
+    border-left: 20px solid #ffcc66;
+}
+.input_searh_text {
+    width: 87%;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+
+}
+div .button{
+    font-size: 14px;
+    height: 25px;
+    font-weight: 500;
+    font-family: "Arial", serif;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 2px;
+    background: linear-gradient(to top, #d8d8d8, #ffffff);
+}
+
+.checkbox_field{
+align-content: center;
+}
+div .checkbox{
+    vertical-align: sub;
+}

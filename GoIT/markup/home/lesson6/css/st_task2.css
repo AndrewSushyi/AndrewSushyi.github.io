@@ -1,0 +1,129 @@
+.testimonials {
+    background: url(../images/background.jpg) no-repeat center;
+    background-size: auto;
+    position: absolute;
+    z-index: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 350px;
+
+}
+.testimonials_header {
+    width: 1400px ;
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-family:  "Arial", serif, serif;
+}
+.testimonials_header div{
+    display: inline-block;
+    color: #3170a8;
+}
+.testimonials_header div:first-child{
+    color: #ee8129;
+}
+
+.testimonials_section{
+    position: absolute;
+    top: 150px;
+    width: 1060px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background-color: red;
+
+}
+.testimonials_section  div{
+    display: inline-block;
+
+}
+
+
+.user_foto_Lft{
+    position:  absolute;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 0;
+    left: 0;
+    right: 0;
+
+    }
+.user_foto_Lft img{
+    height: 100px;
+    width: 100px
+}
+
+.user_info_section_Lft {
+    padding: 10px;
+    left: 125px;
+    position: absolute;
+    width: 375px;
+    height: 80px;
+    background-color:#f7f7f7;
+}
+.user_foto_rght{
+    left: 540px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+
+}
+.user_foto_rght img{
+    height: 100px;
+    width: 100px
+}
+hr{
+    border: none;
+    border-bottom: 1px dashed gray;"
+}
+
+.user_info_section_rght{
+    padding: 10px;
+    left: 665px;
+    position: absolute;
+    width: 375px;
+    height: 80px;
+    background-color:  #f7f7f7;
+}
+
+.user_name{
+    display: inline-block;
+    color: #3070a8;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Calibri", serif;
+    font-size: 14px;
+}
+.user_name:before {
+    content: '-';
+
+}
+
+.user_position{
+    position: absolute;
+    display: inline-block;
+   left: 82%;
+    color: #3070a8;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Calibri", serif;
+    font-size: 14px;
+}
+div .decoration{
+    display: block;
+}
+div .user_message{
+    display: block;
+    color: #666666;
+    font-family: "Calibri", serif;
+    font-size: 14px;
+}
