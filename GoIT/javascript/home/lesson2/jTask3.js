@@ -1,10 +1,10 @@
 /**
- * Created by А on 04.10.2015.
+ * Created by Рђ on 04.10.2015.
  */
 var login, pasword;
-login=prompt('Введите логин');
+login=prompt('Р’РІРµРґРёС‚Рµ Р»РѕРіРёРЅ');
 if (login=='admin'){
-    password=prompt('Введите пароль');
+    password=prompt('Р’РІРµРґРёС‚Рµ РїР°СЂРѕР»СЊ');
     if(password===null){alert('Canceled');}
     if(password=='passw0rd'){alert('Welcome home!');}
     if(password!='passw0rd'&&password!=null){alert('Wrong password');}
