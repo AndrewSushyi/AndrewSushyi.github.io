@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gunman game</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="wrap">
+        <div id="popUp">
+            <div class="popUpText">
+                <h1>GoIT - 2016</h1>
+                <h1>игра  &ldquo;Gunman&rdquo;</h1>
+                <p>Для начала игры нажмите "старт"</p>
+                <a id="start1" href="#">СТАРТ</a>
+            </div>
+        </div>
+
+        <div id="popUpRsult">
+            <div class="popUpText">
+                <h3>Игра закончена</h3>
+                <p class="item">очки игрока: <span id="igrokResult">0</span></p>
+                <p class="item">очки противника: <span id="protivnikResult">0</span></p>
+                <h1 class="item"><span id="pobeditel"></span></h1>
+            </div>
+        </div>
+
+       <!-- <div id="gameName">
+           <p>GUNMAN</p>
+        </div>-->
+
+        <canvas id="map"></canvas>
+        <canvas id="player"></canvas>
+
+
+
+        <p class="item">очки игрока: <span id="igrok">0</span></p>
+        <p class="item">очки противника: <span id="protivnik">0</span></p>
+
+        <input id="start" type="button" value="Играть заново"/>
+        <input id="stop" type="button" value="Остановить игру"/>
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
